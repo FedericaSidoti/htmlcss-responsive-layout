@@ -221,6 +221,11 @@ a {
         flex-basis: 100%; 
     }
 
+    /*planning*/
+    .col-wide {
+        padding-top: 5px; 
+    }
+
 }
 
 /*Mobile*/
