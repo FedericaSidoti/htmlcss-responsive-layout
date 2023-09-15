@@ -109,15 +109,49 @@ a {
     padding: 12px; 
 }
 
+.col img {
+    width: 60px; 
+}
+
 .ham-icon {
     display: none; 
+    color: white; 
+    font-size: 20px; 
+}
+
+/*Media-query*/
+
+/*Tablet*/
+
+@media (max-width: 768px) {
+    .ham-icon {
+        display: inline-block;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+}
+
+/*Mobile*/
+
+@media (max-width: 576px) {
+    .ham-icon {
+        display: inline-block;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
 }
 
 /* debug */
 
 .debug .container,
- .debug .container-medium,
- .debug .container-small  {
+.debug .container-medium,
+.debug .container-small  {
     border: 1px solid var(--yellow);
     padding: 10px;
 }
