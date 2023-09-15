@@ -59,6 +59,11 @@ a {
     flex-wrap: wrap;
 }
 
+
+.col, *[class^='col-'] {
+    padding: 12px; 
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -77,6 +82,13 @@ a {
 
 /* utility classes */
 
+.no-padding {
+    padding: 0; 
+}
+
+.fluid {
+    height: 100%;
+}
 
 /* component classes */
 
@@ -105,18 +117,51 @@ a {
     align-items: center;
 }
 
-.col {
-    padding: 12px; 
-}
-
-.col img {
-    width: 60px; 
-}
-
 .ham-icon {
     display: none; 
     color: white; 
     font-size: 20px; 
+}
+
+/*Hero*/
+
+.card {
+    background-color: var(--light-blue);
+    border-radius: 20px;
+    height: 100%; 
+}
+
+.card-title {
+    line-height: 2em;
+    color: var(--blue); 
+    padding: 15px 10px; 
+    text-align: center;
+}
+
+.card-text {
+    font-weight: 700;
+    padding: 15px 10px; 
+}
+
+.img {
+    display: block; 
+    width: 250px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-icon {
+    font-size: 100px; 
+    color: var(--blue);
+    padding-top: 20px; 
+}
+
+.hero .col-4 {
+    text-align: center;
 }
 
 /*Media-query*/
@@ -132,6 +177,10 @@ a {
         display: none;
     }
 
+    .col img {
+        width: 60px; 
+    }
+
 }
 
 /*Mobile*/
@@ -145,6 +194,9 @@ a {
         display: none;
     }
 
+    .col img {
+        width: 60px; 
+    }
 }
 
 /* debug */
