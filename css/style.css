@@ -181,6 +181,12 @@ a {
         width: 60px; 
     }
 
+    /*hero*/
+
+    .col-6 {
+        flex-basis: 100%; 
+    }
+
 }
 
 /*Mobile*/
@@ -197,6 +203,13 @@ a {
     .col img {
         width: 60px; 
     }
+
+        /*hero*/
+
+        .col-12, .col-8, .col-6, .col-4 {
+            flex-basis: 100%; 
+        }
+        
 }
 
 /* debug */
