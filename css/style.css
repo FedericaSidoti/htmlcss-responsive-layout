@@ -64,6 +64,10 @@ a {
     padding: 12px; 
 }
 
+.col-2 {
+    flex-basis: calc((100% / 12) * 2);
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
@@ -175,7 +179,6 @@ a {
     color: var(--light)
 }
 
-
 .planning .card-title {
     text-align: left; 
 }
@@ -196,6 +199,39 @@ a {
 .planning .card, .planning .card .card-title {
     text-align: center;
     color: black;
+}
+
+/*Section partners*/
+
+.purple-card {
+    background-color: var(--purple);
+}
+
+.round {
+    border-radius: 160px;
+    aspect-ratio: 1; 
+    max-width: 150px; 
+    margin: 0 auto; 
+}
+
+cite {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+}
+
+blockquote {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 20px; 
+    height: 100%;
+    color: white;
+}
+
+blockquote span {
+    padding-left: 5px; 
+    padding-right: 5px; 
 }
 
 /*Media-query*/
@@ -222,6 +258,7 @@ a {
     }
 
     /*planning*/
+
     .col-wide {
         padding-top: 5px; 
     }
