@@ -198,7 +198,7 @@ a {
 .round {
     border-radius: 100%;
     aspect-ratio: 1;
-    overflow: hidden;
+    object-fit: cover;
 }
 
 cite {
