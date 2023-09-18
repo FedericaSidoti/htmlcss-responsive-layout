@@ -303,6 +303,7 @@ blockquote span {
     margin-bottom: 10px; 
     position: relative;
     width: 250px;
+    margin: 0 auto;
 }
 
 .about-us .section-title {
@@ -337,6 +338,7 @@ blockquote span {
     line-height: 2em;
 }
 
+
 /*Section free*/
 
 .free {
@@ -351,6 +353,7 @@ blockquote span {
     align-items: center;
     gap: 20px;
     padding: 15px; 
+    width: 100%;
 }
 
 .title-yellow {
@@ -389,6 +392,27 @@ blockquote span {
 
 .a-normal {
     text-decoration: underline;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--dark-grey);
+    color: white; 
+    padding: 50px 0; 
+}
+
+.footer .container-small {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px; 
+}
+
+.footer-text {
+    text-align: center; 
 }
 
 
@@ -459,7 +483,12 @@ blockquote span {
 
         /*hero*/
 
-        .col-12, .col-8, .col-6, .col-4, .col-2 {
+        .col-12, .col-8, .col-6, .col-2, .col-4 {
+            flex-basis: 100%; 
+        }
+
+        /*Benefits*/
+        .benefits .col-4 {
             flex-basis: 100%; 
         }
 
