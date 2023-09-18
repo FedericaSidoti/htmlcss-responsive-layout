@@ -330,6 +330,11 @@ blockquote span {
         padding-top: 5px; 
     }
 
+    /*Section benefits*/
+    .benefits .col-4 {
+        flex-basis: 50%; 
+    }
+
 }
 
 /*Mobile*/
