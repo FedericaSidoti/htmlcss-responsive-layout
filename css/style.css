@@ -294,15 +294,17 @@ blockquote span {
     font-size: 90px; 
     font-weight: 900; 
     position: absolute; 
-    right: 70px; 
-    top: -25px; 
+    right: 0px; 
+    top: -30px; 
 }
 
 .img-box {
-    position: relative; 
-    margin-bottom: 10px; 
     max-height: 50%;
+    margin-bottom: 10px; 
+    position: relative;
+    width: 250px;
 }
+
 
 .about-us .section-title {
     font-size: 60px;
@@ -389,6 +391,20 @@ blockquote span {
         flex-basis: 50%; 
     }
 
+    /*Section About-us*/
+    .about-us .row {
+        flex-wrap: nowrap;
+    }
+
+    .about-us .col-8 {
+        padding-left: 20px; 
+    }
+
+    .about-us .col-4 {
+        padding-right: 20px; 
+    }
+
+
 }
 
 /*Mobile*/
@@ -428,6 +444,11 @@ blockquote span {
 
     cite {
         text-align: center;
+    }
+
+    /*About-us*/
+    .about-us .row {
+        flex-wrap: wrap;
     }
 
 }
