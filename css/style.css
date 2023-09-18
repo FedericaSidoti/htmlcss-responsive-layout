@@ -170,6 +170,14 @@ a {
     text-align: left; 
 }
 
+.text-planning {
+    text-align: center; 
+    font-style: italic;
+    padding: 10px; 
+    margin-bottom: 15px; 
+    line-height: 2em;
+}
+
 .white-card {
     background-color: var(--light);
 }
@@ -223,6 +231,7 @@ blockquote {
     gap: 20px; 
     height: 100%;
     color: white;
+    line-height: 2em;
 }
 
 blockquote span {
@@ -284,6 +293,10 @@ blockquote span {
 
 .benefits .card-title {
     text-align: left; 
+}
+
+.benefits .card-text {
+    font-weight: 400;
 }
 
 .benefits .button {
