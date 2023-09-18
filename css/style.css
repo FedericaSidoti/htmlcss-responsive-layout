@@ -127,7 +127,7 @@ a {
 }
 
 .card-title {
-    line-height: 2em;
+    font-size: 2em;
     color: var(--blue); 
     padding: 15px 10px; 
     text-align: center;
@@ -199,6 +199,7 @@ a {
     border-radius: 100%;
     aspect-ratio: 1;
     object-fit: cover;
+    width: 250px;
 }
 
 cite {
@@ -282,6 +283,59 @@ blockquote span {
     padding: 0 40px; 
     color: white; 
 }
+
+/*section About-us*/
+
+.about-us {
+    padding: 60px 0; 
+}
+
+.icon {
+    font-size: 90px; 
+    font-weight: 900; 
+    position: absolute; 
+    right: 70px; 
+    top: -25px; 
+}
+
+.img-box {
+    position: relative; 
+    margin-bottom: 10px; 
+    max-height: 50%;
+}
+
+.about-us .section-title {
+    font-size: 60px;
+}
+
+.about-us .card-title {
+    padding: 10px 0; 
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+.about-us .button {
+    background-color: var(--purple);
+    color: white; 
+}
+
+.about-us .col-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 40px; 
+    padding-right: 40px; 
+}
+
+.about-us .col-4 {
+    padding-left: 40px;
+    padding-top: 40px;  
+}
+
+.about-text {
+    line-height: 2em;
+}
+
 
 /* utility classes */
 
